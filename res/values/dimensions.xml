@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="size_text_mainNumberDisplay">60sp</dimen>
+    <dimen name="size_spacing_betweenEditText_moderate">30dip</dimen>
+    
+</resources>

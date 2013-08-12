@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    
+    <Button 
+        android:id="@+id/button_main_newPatient"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_marginTop="30dip"
+        android:text="@string/string_main_buttonLabel_newPatient"
+        />
+    
+    <TextView 
+        android:id="@+id/textView_main_nextPatientName"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_below="@+id/button_main_newPatient"
+        android:layout_marginTop="10dip"
+        
+        />
+    
+    <TextView 
+        android:id="@+id/textView_main_nextPatientNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_below="@+id/textView_main_nextPatientName"
+        android:layout_marginTop="10dip"
+        
+        />
+    
+    <TextView 
+        android:id="@+id/textView_main_currentPatientNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_below="@+id/textView_main_nextPatientNumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dip"
+        android:layout_marginBottom="20dip"
+        android:textSize="@dimen/size_text_mainNumberDisplay"
+        
+        android:text="00"
+        
+        
+        />
+    
+
+</RelativeLayout>

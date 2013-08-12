@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    
+    
+    <EditText 
+        android:id="@+id/editText_addNew_lineNumber"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_marginTop="@dimen/size_spacing_betweenEditText_moderate"
+        
+        android:hint="@string/string_addNew_hint_linenumber"
+        android:inputType="number"
+        />
+    
+    <EditText 
+        android:id="@+id/editText_addNew_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_marginTop="@dimen/size_spacing_betweenEditText_moderate"
+        android:layout_below="@+id/editText_addNew_lineNumber"
+        
+        android:hint="@string/string_addNew_hint_name"
+        
+        />
+    
+    <EditText 
+        android:id="@+id/editText_addNew_phone"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_marginTop="@dimen/size_spacing_betweenEditText_moderate"
+        android:layout_below="@+id/editText_addNew_name"
+        
+        android:hint="@string/string_addNew_hint_phone"
+        android:inputType="phone"
+        />
+
+    
+    <Spinner
+        android:id="@+id/spinner_addNew_alertBeforeCounter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        
+        android:layout_below="@+id/editText_addNew_phone"
+        android:layout_centerHorizontal="true"
+		/>
+    
+    
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<resources>
+
+    <string name="app_name">MyNumber</string>
+
+    
+    
+    <!-- ScreenMain -->
+    <string name="string_main_buttonLabel_newPatient">New Patient</string>
+    <string name="string_main_buttonLabel_increaseCount">+</string>
+    <string name="string_maint_label_nextNumber">Next Patient</string>
+    
+    <!-- popup addnew -->
+    <string name="string_addNew_title">Add new patient</string>
+    <string name="string_addNew_hint_name">Name</string>
+    <string name="string_addNew_hint_phone">Phone Number</string>
+    <string name="string_addNew_hint_linenumber">Number</string>
+</resources>
